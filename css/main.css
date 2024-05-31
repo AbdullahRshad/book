@@ -1,0 +1,32 @@
+body{
+    background-color: #F7ECDE;
+}
+section h1{
+        font-family: "PT Sans Caption", sans-serif;
+        font-weight: 500;
+        font-style: normal;  
+        color: rgb(53, 46, 40);
+        font-size: 50px;
+        line-height: 60px;
+}
+header{
+    padding: 2rem;
+    border-bottom: 1.5px dashed black;
+}
+.book-mark h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.book-mark i{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+.btn-sub{
+    border-bottom: 1.5px dashed black;
+    padding: 2rem;
+}

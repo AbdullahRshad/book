@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section class="py-5" >
+            <header class="text-center  ">
+                <h1>Bookmarker</h1>
+            </header>
+            <main>
+                <div class="text-center book-mark py-3 d-flex justify-content-center align-items-center gap-4">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <h2> Bookmark your favorite sites </h2>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <div class="form">
+                    <div class="site-name py-3 w-100 d-flex flex-column justify-content-center">
+                        <label for="bookmarkName" class="pb-2 fw-semibold">
+                          <i class="fa-solid fa-book-bookmark pe-2"></i>
+                          Site Name</label>
+                        <input type="text" placeholder="Bookmark Name" class="form-control" oninput=" validate()" id="siteName">
+                      </div>
+                      <div class="site-url w-100 py-3 d-flex flex-column justify-content-center">
+                        <label for="bookmarkName" class="pb-2 fw-semibold">
+                          <i class="fa-solid fa-book-bookmark pe-2"></i>
+                          Site URL</label>
+                        <input type="text" placeholder="Site URL" class="form-control" oninput="validation() "  id="siteUrl">
+                      </div>
+                      <div class="btn-sub d-flex justify-content-center ">
+                        <button class="btn btn-danger px-5  " id="subBtn" >Submit</button>
+                      </div>
+
+                      <table class="table mt-4 text-center bg-light">
+                        <thead>
+                          <tr><th class="text-capitalize">index</th>
+                          <th class="text-capitalize">Website Name</th>
+                          <th class="text-capitalize">Visit</th>
+                          <th class="text-capitalize">Delete</th>
+                        </tr></thead>
+                        <tbody id="tableContent"></tbody>
+                      </table>
+
+                </div>
+            </main>
+        </section>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
